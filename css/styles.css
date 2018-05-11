@@ -1,0 +1,59 @@
+.subject {
+text-align: right;
+}
+.ulogo img {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 120px; */
+}
+.main_focus img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.interests img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.trading_card img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.hobby img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#botmid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.exit {
+  text-align: center;
+}
+
+@media and screen (min-width: 450px) {
+  .interests img {
+    width: 33.3%;
+  }
+  .trading_card img {
+    width: 33.3%;
+  }
+  .hobby img {
+    width: 33.3%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #botmid, .main_focus, .subject, .exit, #top, .ulogo {
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  }
+}
